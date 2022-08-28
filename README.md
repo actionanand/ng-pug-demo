@@ -40,3 +40,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - [How To Create Better Angular Templates With Pug](https://www.smashingmagazine.com/2020/05/angular-templates-pug/)
 - ['ng-cli-pug-loader' npm lib](https://www.npmjs.com/package/ng-cli-pug-loader)
+- [How to deploy a React, Angular and Vue project to Github pages](https://deepinder.me/how-to-deploy-a-react-angular-vue-project-to-github-pages)

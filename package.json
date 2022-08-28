@@ -1,6 +1,7 @@
 {
   "name": "ng-pug-demo",
   "version": "0.0.0",
+  "homepage": "http://actionanand.github.io/ng-pug-demo",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +9,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "node ./ng-add-pug-loader.js"
+    "postinstall": "node ./ng-add-pug-loader.js",
+    "build:gh-page": "ng build --output-path dist --base-href /ng-pug-demo/",
+    "predeploy": "npm run build:gh-page",
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
@@ -34,6 +38,7 @@
     "@types/node": "^12.11.1",
     "apply-loader": "^2.0.0",
     "codelyzer": "^6.0.0",
+    "gh-pages": "^4.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",
