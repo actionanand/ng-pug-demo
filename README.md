@@ -6,6 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## How to add `Pug` to Angular
+
+At the root of your project, run
+
+```bash
+  ng add ng-cli-pug-loader
+```
+
+That's it, your project now supports pug files.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
@@ -25,3 +35,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Resources
+
+- [How To Create Better Angular Templates With Pug](https://www.smashingmagazine.com/2020/05/angular-templates-pug/)
+- ['ng-cli-pug-loader' npm lib](https://www.npmjs.com/package/ng-cli-pug-loader)
