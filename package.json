@@ -10,8 +10,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "node ./ng-add-pug-loader.js",
+    "copy404": "cat './dist/index.html' >> './dist/404.html'",
     "build:gh-page": "ng build --output-path dist --base-href /ng-pug-demo/",
-    "predeploy": "npm run build:gh-page",
+    "predeploy": "yarn run build:gh-page && yarn run copy404",
     "deploy": "gh-pages -d dist"
   },
   "private": true,
